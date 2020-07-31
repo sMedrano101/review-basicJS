@@ -12,5 +12,21 @@
     <h1 id="someText"></h1>
 
     <script src="home.js" ;></script>
+    <script>
+      let students = `[
+        {
+          "name": "steve",
+          "skills": "Medium",
+          "specialty": "hard-worker"
+        },
+        {
+          "name": "Bat-man",
+          "skills": "over-achiever",
+          "specialty": "kung-fu"
+        }
+      ]`;
+
+      console.log(JSON.parse(students)[1].name);
+    </script>
   </body>
 </html>
